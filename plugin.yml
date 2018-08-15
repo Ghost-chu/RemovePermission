@@ -1,0 +1,11 @@
+name: RemovePermission
+main: com.mcsunnyside.permission.Main
+version: 1.0.0-SNAPSHOT
+commands:
+    removepermission:
+        description: testPlugin
+        usage: /removepermission reload
+permissions:
+    removePermission.admin:
+        description: Use removePermission command.
+        default: op
